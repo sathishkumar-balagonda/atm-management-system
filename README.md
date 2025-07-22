@@ -22,7 +22,7 @@ A console-based Java application that allows predefined users to perform basic b
 - Database connection is managed with a reusable connection handler.
 
 ## Author
-- Sathish Kumar
+- Sathish Kumar Balagonda 
 
 ## Note
 - This project was created for educational purposes to understand backend logic and database interaction in Java applications.
