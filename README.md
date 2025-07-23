@@ -61,9 +61,10 @@ README.md                --> This file. Contains project documentation
   - pin (INT)
   - balance (DOUBLE)
 - Insert a sample user:
-  sql
+  ```sql
   INSERT INTO users (id, name, pin, balance) VALUES (1, 'Sathish', 1234, 5000.00);
-  
+  ```
+
 4. ✏ *Update credentials in DatabaseConnection.java*  
 Inside your DatabaseConnection.java, make sure this part looks like:
 ```java
@@ -76,5 +77,30 @@ String password = "yourpassword"; // your MySQL password
    - Select Run As → Java Application  
    - The app will run in the console window (text-based interface)  
    - Use the sample user details to log in and try all features
+```
+## 🧠 What I Learned
+
+- How to connect a Java application to a MySQL database using JDBC
+- Creating and managing database tables for storing user data
+- Writing modular and reusable Java classes
+- Handling real-time user input using the Scanner class
+- Implementing basic backend logic like deposit, withdrawal, and balance check
+- Managing exceptions and handling invalid input safely
+
 ---
+
+## 🚀 Future Improvements
+
+- Add a proper login system with encrypted PIN storage
+- Build a GUI version using JavaFX or Swing
+- Add transaction history for each user
+- Validate user input more securely
+- Support multiple users at the same time
+
+## 📸 Sample Console Output
+
+![ATM Console Output](https://github.com/sathishkumar-balagonda/ATM-Management-System/blob/main/ATM_Output.png)
+
+
+
 
