@@ -39,3 +39,11 @@ ATMOperations.java       --> Handles all banking operations (deposit, withdrawal
 DatabaseConnection.java  --> Manages connection to the MySQL database using JDBC
 README.md                --> This file. Contains project documentation
 
+---
+
+## 🛠 Setup Instructions
+
+1. 📥 *Clone this repository*  
+   Download the project to your computer by running the following command:
+   git clone
+   
