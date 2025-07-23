@@ -88,7 +88,6 @@ String password = "yourpassword"; // your MySQL password
 - Managing exceptions and handling invalid input safely
 
 ---
-
 ## 🚀 Future Improvements
 
 - Add a proper login system with encrypted PIN storage
